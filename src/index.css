@@ -37,7 +37,7 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #FF0000, #898989);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -92,7 +92,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-7xl md:text-[20vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
